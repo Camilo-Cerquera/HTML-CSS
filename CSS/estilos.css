@@ -1,0 +1,284 @@
+/* Importación de Google Font "Open Sans" */
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+html, body {
+	margin:0 auto;
+	padding:0px;
+	width:1000px;
+	font-size:13px;
+	color:#070707;
+	font-family: Helvetica, sans-serif;
+	background-size:100% auto;
+	line-height:18px;
+}
+/* Modificación de comportamiento de los enlaces */
+a,a:visited{
+	text-decoration: none;
+}
+/* Modificación del comportamiento del encabezado 1 */
+h1 {
+	font-size: 35px;
+}
+/* Modificación del comportamiento de encabezados */
+h1,h2,h4 {
+	
+	font-family: 'Open Sans', sans-serif;
+    color: #bea177;
+}
+/* Modificación del comportamiento de los párrafos */
+p {
+	text-align: justify;
+    font-size: 15px;
+}
+
+/* Div del menú de la página */
+.div_menu {
+	text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+	text-align:center;
+    margin-top: 30px;
+	margin-left:5px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+}
+/* Estilos comunes de los botones de navegación */
+.boton,.boton:hover,.botonin,.botonin:hover {
+	text-shadow: 2px 1px rgba(0, 0, 0, 0.3);
+	text-align:center;
+	text-decoration: none;
+	display:inline-block;
+	width: 80px;
+	padding: 5px 30px;
+	white-space: nowrap;
+	margin: 5px 5px 10px;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+
+/* Estilos independientes de los botones de navegación */
+.boton{
+	background: #3e78b2; /* Old browsers */
+	background: -moz-linear-gradient(top, #709ac4 0%, #5394d5 44%, #064787 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #709ac4 0%, #5394d5 44%, #064787 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #709ac4 0%, #5394d5 44%, #064787 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+
+.boton:hover{
+	background: #3e78b2;
+	font-size: 14px;
+}
+
+.botonin {
+	background: rgb(197,222,234); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(145, 179, 222) 0%, rgb(55, 99, 144) 31%,rgb(1, 7, 16) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgb(145, 179, 222) 0%,rgb(55, 99, 144) 31%,rgb(1, 7, 16) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgb(145, 179, 222) 0%,rgb(55, 99, 144) 31%,rgb(1, 7, 16) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6*/
+}
+
+.botonin:hover{
+	background: #3e78b2;
+	font-size: 14px;
+}
+
+/* Estilos de imágenes */
+
+.galeria_img {
+	width: 330px;
+	height: 300px;
+}
+
+.Logo{
+    display: flex;
+    margin: 0 auto;
+}
+
+.ubicacion_img{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.img1{
+    float:right;
+	margin-left: 20px;
+}
+
+.img2{
+    float: left;
+	margin-left: 20px;
+	width: 300px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.img3{
+    display: flex;
+    margin: 0;
+	margin-left: 150px;
+}
+/* Creamos las dos columnas  indice que flote una al lado de la otra */
+
+.menu_lista{
+    float: left;
+    width: 30%;
+    height: 1280px;
+    background: #709ac4;
+    padding: 20px;
+}
+
+.lista ul{
+    list-style-type: none;
+    padding: 50;
+    color: #0a1a2a;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos articulos */
+
+.article{
+    float: left;
+    padding: 20px;
+    width: 62%;
+    background-color: #f1f1f1;
+    height: 400px;
+}
+
+
+
+/*******************************************************/
+/*  Inicio de definición de estilos para el formulario */
+/*******************************************************/
+
+.boton_form {
+	text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+	text-align:center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	display:inline-block;
+	color: #FFF;
+	background: #3e78b2; 
+	padding: 6px 30px;
+	white-space: nowrap;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 10px;
+	margin: 50px 5px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+
+}
+
+.morado{
+	background: #3e78b2;
+	border: 1px solid #215e9b; 
+}
+
+.morado:hover{
+ 	background: #ADD5FF;
+}
+
+.caja_gris{
+	margin: 0 0 5px;
+	overflow: hidden;
+	padding: 4px;
+	background-color: #F2F2F2;
+	border: 1px solid #6E6E6E;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario{
+	margin-top: 27px;
+	margin-left: 140px;
+	padding-left: 80px;
+	margin-right: 140px;
+	padding-right: 120px;
+}
+
+label{
+	width: 100px;
+	display: inline-block;
+}
+
+.h3{
+	margin-left: 218px;
+}
+
+/****************************************************/
+/*  Fin de definición de estilos para el formulario */ 
+/****************************************************/
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Pie de página *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+.pie_pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie_pagina .grupo_1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie_pagina .grupo_1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie_pagina .grupo_1 .box figure img{
+    width: 250px;
+}
+
+.pie_pagina .grupo_1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie_pagina .grupo_1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie_pagina .grupo_1 .red_social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie_pagina .grupo_1 .red_social a:hover{
+    color: rgb(249, 229, 164);
+}
+
+.pie_pagina .grupo_2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie_pagina .grupo_2 small{
+    font-size: 15px;
+}
